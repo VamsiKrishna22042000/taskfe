@@ -9,7 +9,7 @@ import ProtectedRoute from "./ProtectedRoute/ProtectedRoute.jsx";
 
 function App() {
   return (
-    <Router basename="/taskdashboard">
+    <Router basename="/">
       <Routes>
         <Route path="/signin" element={<Signin />} />
         <Route path="/signup" element={<Signup />} />
